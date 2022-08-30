@@ -6,7 +6,7 @@ variable "aws_availability_zones" {
 variable "aws_region" {
   type        = string
   description = "AWS region such as 'ap-southeast-1' (Singapore)"
-  default     = "ap-southeast-1"
+  default     = "ap-southeast-2"
 }
 
 variable "aws_elastic_ip_allocation_ids" {

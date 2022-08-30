@@ -9,9 +9,9 @@ terraform {
   required_version = "~> 1.0"
 
   backend "s3" {
-    bucket = "[YOUR_BUCKET_NAME]"
+    bucket = "tdn-terraform"
     key    = "network/dev"
-    region = "ap-southeast-1"
+    region = "ap-southeast-2"
   }
 }
 
